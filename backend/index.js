@@ -17,7 +17,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true })); 
 
 
-mongoose.connect('mongodb+srv://userOwner:<PASSWORD>@employeecluster1.vod7p.mongodb.net/?retryWrites=true&w=majority&appName=EmployeeCluster1', {
+mongoose.connect('mongodb+srv://userOwner:12341234@employeecluster1.vod7p.mongodb.net/?retryWrites=true&w=majority&appName=EmployeeCluster1', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
